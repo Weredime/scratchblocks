@@ -34,7 +34,7 @@ export default function (window) {
 
   function newView(doc, options) {
     options = {
-      style: "scratch2",
+      style: "scratch3",
       ...options,
     }
 
@@ -112,7 +112,7 @@ export default function (window) {
     selector = selector || "pre.blocks"
     options = {
       // Default values for the options
-      style: "scratch2",
+      style: "scratch3",
       inline: false,
       languages: ["en"],
       scale: 1,
